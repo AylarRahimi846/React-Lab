@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(163, 162, 162);
+    font-family: 'Times New Roman', Times, serif;
+ 
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cardContainer{
+box-shadow: 1px 1px 1.5rem rgba(0, 0, 0, 0.556);
+background-color: gray;
+border-radius: 8px;
+width: 270px;
+height: 300px;
+margin: 60px;
+border: 8px solid black;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.cardImg{
+    padding-right: 9px;
+    padding-top: 8px;
+    width: 140px;
+    height: 140px;
+    border-radius: 25px;
+}
+
+.cardName{
+    font-size: 18px;
+    display: block;
+}
+
+.cardEmail{
+    font-weight: bold;
+    font-size: 14px;
+}
